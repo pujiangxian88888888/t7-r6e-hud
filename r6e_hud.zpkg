@@ -87,7 +87,6 @@ image,ui_icon_hud_selfhealthbar_jugg
 image,ui_icon_teammate_healthbar
 //image,ui_icon_teammate_healthbar_bg
 //image,ui_icon_teammate_down_notify
-
 image,uie_t7_zm_hud_revive_glow
 image,uie_t7_zm_hud_revive_ringblur
 image,uie_t7_zm_hud_revive_ringmiddle
@@ -96,24 +95,12 @@ image,ui_icon_hero_adrenal_surge
 image,ui_icon_cluster_strike
 image,ui_icon_selfplayer_down_bleedout_bar_icon
 image,ui_icon_teammate_bleedout_bar
-//image,ui_icon_teammate_down_bg
 image,ui_icon_teammate_dead_icon
 image,ui_icon_revive_arrow
 image,uie_t7_zm_hud_revive_ringglow
 image,ui_icon_dead_spectating_bg
-image,ui_icon_hero_portrait_draft_youmu_teammate
-image,ui_icon_hero_portrait_draft_reimu_teammate
-image,ui_icon_hero_portrait_draft_sakuya_teammate
-image,ui_icon_hero_portrait_draft_marisa_teammate
-image,ui_icon_sentry_gun
 image,ui_icon_being_revived
-image,ui_icon_hero_portrait_draft_isla
-image,ui_icon_hero_portrait_draft_isla_teammate
-image,ui_icon_mortar_strike
 image,ui_icon_riot_shield
-image,ui_icon_master_key
-image,ui_icon_m203
-image,ui_icon_gp25
 image,ui_icon_trip_mine
 
 
@@ -124,3 +111,4 @@ image,ui_icon_trip_mine
 
   
                                                 
+
