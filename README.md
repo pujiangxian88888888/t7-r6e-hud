@@ -3,7 +3,7 @@ A custom black ops 3 hud, rainbow six extraction style.
 
 ## HOW TO INSTALL?
 * 1: You must download and install L3akMod from https://wiki.modme.co/wiki/black_ops_3/lua_(lui)/Installation.html or the linker cannot compile lua files!
-* 2: Put the "texture_assets" and "bin" folder in your BO3 root.
+* 2: Put the "texture_assets" folder in your BO3 root.
 * 3: Put the GDT file to BO3ROOT/source_data.
 * 4: Put the "ui","scripts" and "fonts" folders in BO3ROOT/usermaps/yourmap.
 * 5: Put the ZPKG file in BO3ROOT/usermaps/yourmap/zone_source, the add the following line to your zm_mapname.zone:
