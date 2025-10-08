@@ -3,10 +3,10 @@ A custom black ops 3 hud, rainbow six extraction style.
 
 ## HOW TO INSTALL?
 * 1: You must download and install L3akMod from https://wiki.modme.co/wiki/black_ops_3/lua_(lui)/Installation.html or the linker cannot compile lua files!
-* 2: Put the "custom" and "bin" folder in your BO3 root.
+* 2: Put the "texture_assets" and "bin" folder in your BO3 root.
 * 3: Put the GDT file to BO3ROOT/source_data.
-* 4: Put the "ui","scripts" and "fonts" dictionarys in BO3ROOT/usermaps/yourmap.
-* 5: Put the ZPKG file in BO3ROOT/usermaps/yourmap/zone_source, the add the following content to your zm_mapname.zone:
+* 4: Put the "ui","scripts" and "fonts" folders in BO3ROOT/usermaps/yourmap.
+* 5: Put the ZPKG file in BO3ROOT/usermaps/yourmap/zone_source, the add the following line to your zm_mapname.zone:
 ```
 include,r6e_hud
 ```
@@ -23,10 +23,11 @@ then add this line to your map csc file:
 
 * 7: Compile and link your map.
 ## NOTICE
-* **THE TWO FONTS IN THIS CONTENT ARE COPYRIGHTED. PLEASE DO NOT USE THEM AS COMMERICAL PURPOSE.**
-* This HUD has only be tested in SOLO mode and BOTs, It has not been tested in COOP mode yet. If you find any bugs during the game please let me know. Contact me at discord,gmail or just leave a issue.
+* **THE FONTS IN THIS CONTENT ARE COPYRIGHTED. PLEASE DO NOT USE THEM AS COMMERICAL PURPOSE.**
+  
+* This HUD has only be tested in SOLO mode and BOTs, It has not been tested in COOP mode yet. If you find any bugs during the game please let me know. Contact me at discord, gmail or just leave a issue.
 
-* This HUD does not contain BGB widget ( actionslot1 ).If you want to add it, You can add the following code in R6eHudScoreContainer.lua:
+* This HUD does not contain BGB widget ( actionslot1 ). If you want to add it, You can add the following code in R6eHudScoreContainer.lua:
 
     ```
     require( "ui.uieditor.widgets.HUD.ZM_AmmoWidget.ZmAmmo_BBGumMeterWidget" )
@@ -50,6 +51,12 @@ And do not forget add the perk icon image asset to the HUD ZPKG file.
     --power_up clientfield name is the 9th actual argument in zm_powerups::add_zombie_powerup.
     ```
 And do not forget add the power up material asset to the HUD ZPKG file.
+
+* The tactical grenade widget, I have set the icon for all types of tactical grenades to "ui_icon_aura_grenade". (In R6E, the aura grenade has the same function as the monkey and octobomb, which is to attract enemies and explode.) You can set the icon according to your actual needs.
+
+* Due to the author's limited 2D art skills, the icons used for actionslot2, 3, 4 (shield, altweapon, tripmine) may not be particularly well-suited.
+
+* There may be some obsolete images in the repo.
 
 
 ## CREDITS
