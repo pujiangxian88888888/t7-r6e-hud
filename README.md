@@ -1,4 +1,4 @@
-# t7-r6e-hud
+# The Rainbow Six Extraction HUD for Call of duty Black Ops 3
 A custom black ops 3 hud, rainbow six extraction style.
 
 ## HOW TO INSTALL?
@@ -57,6 +57,8 @@ And do not forget add the power up material asset to the HUD ZPKG file.
 * Due to the author's limited 2D art skills, the icons used for actionslot2, 3, 4 (shield, altweapon, tripmine) may not be particularly well-suited.
 
 * There may be some obsolete images in the repo.
+
+* There are some obsolete widgets, Like "MortarStrike" and "GrenadeLauncher". These widgets were originally intended for my own level. You can simply ignore them or make any changes according to your needs.
 
 
 ## CREDITS
